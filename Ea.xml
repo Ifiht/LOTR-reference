@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ß à á â ã ä å æ ç è é ê ë ì í î ï ð ñ ò ó ô õ ö ù ú û ü ý þ ÿ -->
+<d:dictionary xmlns="http://www.w3.org/1999/xhtml" xmlns:d="http://www.apple.com/DTDs/DictionaryService-1.0.rng">
+	<d:entry d:title="Eä" id="cover_page">
+		<h1>
+			<b>Eä</b>
+		</h1>
+		<h2>the World that Is, and things concerning it.</h2>
+		<div>
+			<ol>
+				<li>Entries are ordered by true name, followed by class and description.</li>
+				<li>Elvish and human names are listed under aliases, except when used as the true (first) name.</li>
+			</ol>
+		</div>
+	</d:entry>
+	<d:entry d:title="Eru" id="Eru">
+		<d:index d:value="eru"/>
+		<d:index d:value="ilùvatar"/>
+		<div d:priority="1" class="heading">
+			<h1>Eru</h1>
+			<h2>Supreme Being</h2>
+		</div>
+		<span class="syntax">
+			<span d:pr="US">| pronunciation |</span>
+		</span>
+		<div>
+			<ol>
+				<p>The One, He that is Alone.</p>
+				<span class="alias">
+					<p>Aliases: <i>Ilùvatar</i></p>
+				</span>
+			</ol>
+		</div>
+	</d:entry>
+	<d:entry d:title="Tom Bombadil" id="Tom Bombadil">
+		<d:index d:value="tom bombadil"/>
+		<div d:priority="1" class="heading">
+			<h1>Tom Bombadil</h1>
+			<h2>?</h2>
+		</div>
+		<span class="syntax">
+			<span d:pr="US">| pronunciation |</span>
+		</span>
+		<div>
+			<ol>
+				<p>He is.</p>
+			</ol>
+		</div>
+	</d:entry>
+	<d:entry d:title="Manwë" id="Manwë">
+		<d:index d:value="manwë"/>
+		<d:index d:value="súlimo"/>
+		<d:index d:value="elder king, the"/>
+		<d:index d:value="ruler of arda, the"/>
+		<div d:priority="1" class="heading">
+			<h1>Manwë</h1>
+			<h2>Vala</h2>
+		</div>
+		<span class="syntax">
+			<span d:pr="US">| pronunciation |</span>
+		</span>
+		<div>
+			<ol>
+				<p>The chief of the Valar.</p>
+				<span class="alias">
+					<p>Aliases: <i>Súlimo, the Elder King, the Ruler of Arda</i></p>
+				</span>
+			</ol>
+		</div>
+	</d:entry>
+	<d:entry d:title="Melkor" id="Melkor">
+		<d:index d:value="melkor"/>
+		<d:index d:value="morgoth"/>
+		<d:index d:value="belegûr"/>
+		<d:index d:value="bauglir"/>
+		<d:index d:value="belegurth"/>
+		<d:index d:value="dark lord, the"/>
+		<d:index d:value="enemy, the"/>
+		<div d:priority="1" class="heading">
+			<h1>Melkor</h1>
+			<h2>Vala</h2>
+		</div>
+		<span class="syntax">
+			<span d:pr="US">| pronunciation |</span>
+		</span>
+		<div>
+			<ol>
+				<p>The Quenya name for the great rebellious Vala, the beginning of evil, in his origin the mightiest of the Ainur. The meaning of <i>Melkor</i> was 'He who arises in Might'; the Sindarin form was <i>Belegûr</i>, but it was never used, save in a deliberately altered form <i>Belegurth</i> 'Great Death'.</p>
+				<span class="alias">
+					<p>Aliases: <i>Morgoth, Belegûr, Bauglir, Belegurth, the Dark Lord, the Enemy</i></p>
+				</span>
+			</ol>
+		</div>
+	</d:entry>
+</d:dictionary>
