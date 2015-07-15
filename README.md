@@ -1,11 +1,10 @@
 Eä
 ====
 
-The source code for a Mac-based Tolkien dictionary.
-
-To build, simple cd into LOTR-reference and run "make"
-
-The pre-built dictionary can be found in objects.
+The source code for a Mac-based Tolkien dictionary.  
+To edit, open Ea.xml and add your favorite LOTR characters.
+To build, cd into LOTR-reference and run "make"  
+The pre-built dictionary can be found in objects.  
 
 
 Current Index Status | # |
@@ -16,5 +15,5 @@ Dwarves		|	1	 |
 Elves		|	1	 |
 
 Obviously a lot of work to do.
-Pull rquests welcome!!
+Pull requests welcome!!
 
