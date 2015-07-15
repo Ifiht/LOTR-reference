@@ -1,0 +1,22 @@
+first lookup term	32	0	First lookup term			Title (use the name they call themselves)
+second lookup term, etc.	32	0	Second lookup term, etc.			Title (use the name they call themselves)
+eru	761	0	eru			Eru
+ilùvatar	761	0	ilùvatar			Eru
+iluvatar	761	0	ilùvatar			Eru
+tom bombadil	1049	0	tom bombadil			Tom Bombadil
+manwë	1284	0	manwë			Manwë
+manwe	1284	0	manwë			Manwë
+súlimo	1284	0	súlimo			Manwë
+sulimo	1284	0	súlimo			Manwë
+elder king, the	1284	0	elder king, the			Manwë
+ruler of arda, the	1284	0	ruler of arda, the			Manwë
+melkor	1584	0	melkor			Melkor
+morgoth	1584	0	morgoth			Melkor
+belegûr	1584	0	belegûr			Melkor
+belegur	1584	0	belegûr			Melkor
+bauglir	1584	0	bauglir			Melkor
+belegurth	1584	0	belegurth			Melkor
+dark lord, the	1584	0	dark lord, the			Melkor
+enemy, the	1584	0	enemy, the			Melkor
+gimli	2043	0	gimli			Gimli
+legolas	2301	0	legolas			Legolas

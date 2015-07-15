@@ -1,0 +1,8 @@
+Same as Title	32
+cover_page	463
+Eru	761
+Tom Bombadil	1049
+Manwë	1284
+Melkor	1584
+Gimli	2043
+Legolas	2301
