@@ -2,7 +2,7 @@ Eä
 ====
 
 The source code for a Mac-based Tolkien dictionary.  
-To edit, open Ea.xml and add your favorite LOTR characters.
+To edit, open Ea.xml and add your favorite LOTR characters.  
 To build, cd into LOTR-reference and run "make"  
 The pre-built dictionary can be found in objects.  
 
