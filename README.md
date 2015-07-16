@@ -1,4 +1,4 @@
-![](https://github.com/Ifiht/LOTR-reference/blob/master/objects/burzum-ishi.png "*`_'*") <span style="color:red; font-family:Georgia; font-size:2em;">Eä</span>
+***:trident: Eä***
 ====
 
 The source code for a Mac-based Tolkien dictionary.  
