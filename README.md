@@ -1,4 +1,4 @@
-Eä
+![](https://github.com/Ifiht/LOTR-reference/blob/master/objects/burzum-ishi.png "*`_'*") Eä
 ====
 
 The source code for a Mac-based Tolkien dictionary.  
