@@ -1,4 +1,4 @@
-*:trident: Eä*
+:trident: Eä
 ====
 
 The source code for a Mac-based Tolkien dictionary.  
