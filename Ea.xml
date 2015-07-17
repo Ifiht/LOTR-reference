@@ -116,6 +116,24 @@
 		</div>
 	</d:entry>
 <!-- =========================== Dwarves =========================== -->
+	<d:entry d:title="Azaghâl" id="Azaghâl">
+       <d:index d:value="azaghâl"/>
+       <d:index d:value="lord of belegost, the"/>
+       <div d:priority="1" class="heading">
+           <h1>Azaghâl</h1>
+           <h2>Dwarf</h2>
+       </div>
+       <span class="syntax">
+           <span d:pr="US">| pronunciation |</span>
+       </span>
+       <div>
+            <ol>
+                <p>Azaghâl, the Lord of Belegost and it's inhabitants.
+                </p>
+                
+            </ol>
+        </div>
+    </d:entry>
 	<d:entry d:title="Gimli" id="Gimli">
 		<d:index d:value="gimli"/>
 		<div d:priority="1" class="heading">
