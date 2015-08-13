@@ -39,23 +39,23 @@ public class Xml_editor extends Application {
         grid.setVgap(10);
         grid.setPadding(new Insets(25, 25, 25, 25));
 
-        Text scenetitle = new Text("Welcome");
+        Text scenetitle = new Text("LOTR index editor");
         scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
             grid.add(scenetitle, 0, 0, 2, 1);
 
-        Label userName = new Label("User Name:");
-            grid.add(userName, 0, 1);
+        Label ixTitle = new Label("Title:");
+            grid.add(ixTitle, 0, 1);
 
-        TextField userTextField = new TextField();
-            grid.add(userTextField, 1, 1);
+        TextField txTitle = new TextField();
+            grid.add(txTitle, 1, 1);
 
-        Label pw = new Label("Password:");
-            grid.add(pw, 0, 2);
+        Label ixDescription = new Label("Description:");
+            grid.add(ixDescription, 0, 2);
 
-        PasswordField pwBox = new PasswordField();
-            grid.add(pwBox, 1, 2);
+        TextField txDescription = new TextField();
+            grid.add(txDescription, 1, 2);
 
-            Button btn = new Button("Sign in");
+            Button btn = new Button("Save");
             HBox hbBtn = new HBox(10);
             hbBtn.setAlignment(Pos.BOTTOM_RIGHT);
             hbBtn.getChildren().add(btn);
@@ -64,14 +64,10 @@ public class Xml_editor extends Application {
             final Text actiontarget = new Text();
             grid.add(actiontarget, 1, 6);
             
-            btn.setOnAction(new EventHandler<ActionEvent>() {
- 
-            @Override
-            public void handle(ActionEvent e) {
+            btn.setOnAction((ActionEvent e) -> {
                 actiontarget.setFill(Color.FIREBRICK);
-                actiontarget.setText("Sign in button pressed");
-                }
-            });
+                actiontarget.setText("Data saved.");
+        });
             
             Scene scene = new Scene(grid, 300, 275);
             primaryStage.setScene(scene);
