@@ -37,7 +37,7 @@ public class Xml_editor extends Application {
         grid.setAlignment(Pos.CENTER);
         grid.setHgap(10);
         grid.setVgap(10);
-        grid.setPadding(new Insets(25, 25, 25, 25));
+        grid.setPadding(new Insets(20, 20, 20, 20));
 
         Text scenetitle = new Text("LOTR index editor");
         scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
@@ -49,17 +49,23 @@ public class Xml_editor extends Application {
         TextField txTitle = new TextField();
             grid.add(txTitle, 1, 1);
 
+        Label ixAliases = new Label("Aliases:");
+            grid.add(ixAliases, 0, 2);
+
+        TextField txAliases = new TextField();
+            grid.add(txAliases, 1, 2);
+            
         Label ixDescription = new Label("Description:");
-            grid.add(ixDescription, 0, 2);
+            grid.add(ixDescription, 0, 3);
 
         TextField txDescription = new TextField();
-            grid.add(txDescription, 1, 2);
+            grid.add(txDescription, 1, 3);
 
             Button btn = new Button("Save");
             HBox hbBtn = new HBox(10);
             hbBtn.setAlignment(Pos.BOTTOM_RIGHT);
             hbBtn.getChildren().add(btn);
-            grid.add(hbBtn, 1, 4);
+            grid.add(hbBtn, 1, 5);
 
             final Text actiontarget = new Text();
             grid.add(actiontarget, 1, 6);
