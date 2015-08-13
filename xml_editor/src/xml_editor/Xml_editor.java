@@ -7,13 +7,12 @@ package xml_editor;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
@@ -32,12 +31,14 @@ public class Xml_editor extends Application {
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("JavaFX Welcome");
-        
+        primaryStage.setHeight( 500 );
+        primaryStage.setWidth( 500 );
+                
         GridPane grid = new GridPane();
         grid.setAlignment(Pos.CENTER);
-        grid.setHgap(10);
-        grid.setVgap(10);
-        grid.setPadding(new Insets(20, 20, 20, 20));
+        grid.setHgap(8);
+        grid.setVgap(8);
+        grid.setPadding(new Insets(15, 15, 15, 15));
 
         Text scenetitle = new Text("LOTR index editor");
         scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
@@ -53,22 +54,23 @@ public class Xml_editor extends Application {
             grid.add(ixAliases, 0, 2);
 
         TextField txAliases = new TextField();
-            grid.add(txAliases, 1, 2);
+            grid.add(txAliases, 1, 2, 2, 1);
             
         Label ixDescription = new Label("Description:");
             grid.add(ixDescription, 0, 3);
 
-        TextField txDescription = new TextField();
-            grid.add(txDescription, 1, 3);
-
+        TextArea txDescription = new TextArea();
+/*            txDescription.setHeight( 50 ); */
+            grid.add(txDescription, 1, 3, 2, 5);            
+            
             Button btn = new Button("Save");
             HBox hbBtn = new HBox(10);
             hbBtn.setAlignment(Pos.BOTTOM_RIGHT);
             hbBtn.getChildren().add(btn);
-            grid.add(hbBtn, 1, 5);
+            grid.add(hbBtn, 2, 9);
 
             final Text actiontarget = new Text();
-            grid.add(actiontarget, 1, 6);
+            grid.add(actiontarget, 1, 10);
             
             btn.setOnAction((ActionEvent e) -> {
                 actiontarget.setFill(Color.FIREBRICK);
